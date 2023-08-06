@@ -5,41 +5,74 @@
     margin: 0%;
     font-family: 'Roboto', sans-serif;
 }
-body{
+
+body {
     background-color: aliceblue;
 }
-header{
+
+header {
     background-color: #5882FA;
 }
 
-.nav-item{
+.nav-item {
     font-weight: bold;
     font-size: 1.5rem;
     padding: 1rem;
     text-transform: uppercase;
 }
 
-.fuentes li a:hover{
+.fuentes li a:hover {
     background-color: blanchedalmond;
 }
 
-.centro{
+.centro {
     text-align: center;
 }
 
-.for1{
+.for1 {
     margin: 50px;
     padding: 100px;
 }
 
-.contacto{
+.contacto {
     width: 50rem;
-    margin:5rem;
+    margin: 5rem;
 }
 
-.titulo{
+.titulo {
     text-align: center;
     padding-top: 2rem;
     text-transform: uppercase;
     font-weight: bold;
+}
+
+.foto {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width:800px) {
+    .foto {
+        display: none;
+    }
+}
+
+h2 {
+    text-align: center;
+}
+
+.parrafo {
+    margin: 5rem;
+}
+
+.imgCarrusel {
+    height: 350px;
+    object-fit: contain;
+}
+
+@media (max-width:800px) {
+    .imgMovil {
+        display: none;
+    }
 }
