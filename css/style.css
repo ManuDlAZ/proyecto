@@ -1,78 +1,65 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap");
 * {
-    padding: 0%;
-    margin: 0%;
-    font-family: 'Roboto', sans-serif;
+  padding: 0%;
+  margin: 0%;
+  font-family: "Roboto", sans-serif;
 }
 
 body {
-    background-color: aliceblue;
+  background-color: aliceblue;
 }
 
 header {
-    background-color: #5882FA;
+  background-color: #5882FA;
+}
+header .nav-item {
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding: 1rem;
+  text-transform: uppercase;
+}
+header .fuentes li a:hover {
+  background-color: blanchedalmond;
 }
 
-.nav-item {
-    font-weight: bold;
-    font-size: 1.5rem;
-    padding: 1rem;
-    text-transform: uppercase;
+main .centro {
+  text-align: center;
+}
+main .titulo {
+  text-align: center;
+  padding-top: 2rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+main .foto {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+main h2 {
+  text-align: center;
+}
+main .parrafo {
+  margin: 5rem;
+}
+main .contacto {
+  width: 50rem;
+  margin: 5rem;
+}
+@media (max-width: 800px) {
+  main .imgMovil {
+    display: none;
+  }
+}
+@media (max-width: 800px) {
+  main .foto {
+    display: none;
+  }
 }
 
-.fuentes li a:hover {
-    background-color: blanchedalmond;
+footer .imgCarrusel {
+  height: 350px;
+  object-fit: contain;
 }
 
-.centro {
-    text-align: center;
-}
-
-.for1 {
-    margin: 50px;
-    padding: 100px;
-}
-
-.contacto {
-    width: 50rem;
-    margin: 5rem;
-}
-
-.titulo {
-    text-align: center;
-    padding-top: 2rem;
-    text-transform: uppercase;
-    font-weight: bold;
-}
-
-.foto {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-@media (max-width:800px) {
-    .foto {
-        display: none;
-    }
-}
-
-h2 {
-    text-align: center;
-}
-
-.parrafo {
-    margin: 5rem;
-}
-
-.imgCarrusel {
-    height: 350px;
-    object-fit: contain;
-}
-
-@media (max-width:800px) {
-    .imgMovil {
-        display: none;
-    }
-}
+/*# sourceMappingURL=style.css.map */
