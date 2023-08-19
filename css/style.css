@@ -62,4 +62,11 @@ footer .imgCarrusel {
   object-fit: contain;
 }
 
+@media (max-width:800px) {
+  footer .esconder {
+    display: none;
+  }
+}
+
+
 /*# sourceMappingURL=style.css.map */
