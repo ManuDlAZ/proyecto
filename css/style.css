@@ -51,6 +51,9 @@ main .contacto {
     display: none;
   }
 }
+main .cuadro {
+  background: linear-gradient(to right, #3a7bd5, #3a6073);
+}
 @media (max-width: 800px) {
   main .foto {
     display: none;
@@ -61,12 +64,10 @@ footer .imgCarrusel {
   height: 350px;
   object-fit: contain;
 }
-
-@media (max-width:800px) {
+@media (max-width: 800px) {
   footer .esconder {
     display: none;
   }
 }
-
 
 /*# sourceMappingURL=style.css.map */
