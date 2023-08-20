@@ -46,6 +46,10 @@ main .contacto {
   width: 50rem;
   margin: 5rem;
 }
+main .subtitulo {
+  text-align: center;
+  font-weight: bolder;
+}
 @media (max-width: 800px) {
   main .imgMovil {
     display: none;
