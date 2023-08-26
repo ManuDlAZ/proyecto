@@ -63,6 +63,33 @@ main .cuadro {
     display: none;
   }
 }
+main .Reco {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #9db9f0;
+  border-radius: 5px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+main .ImgReco {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+main .RecoTitulo {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+}
+main .RecoDesc {
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 20px;
+}
 
 footer .imgCarrusel {
   height: 350px;
